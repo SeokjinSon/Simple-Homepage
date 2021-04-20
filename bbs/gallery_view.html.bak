@@ -38,13 +38,13 @@
 	<div class="contents">
 		<div class="notice-wrap">
 			<div class="notice-box">
-				<h1>자유게시판 글쓰기</h1>
+				<h1>갤러리 글쓰기</h1>
 				<style>
 
 				</style>
 				<div class="view">
 					<span class="view-date">2021-04-16</span>
-					<h2>자유게시판 제목입니다.</h2>
+					<h2>갤러리 제목입니다.</h2>
 
 					<span>작성자 : <b>관리자</b></span>
 
@@ -65,3 +65,4 @@
 		</div>
 	</div>
 	<!-- 콘텐츠 끝 -->
+</body>

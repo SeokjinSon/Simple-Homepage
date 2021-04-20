@@ -40,41 +40,7 @@
 			<div class="notice-box">
 				<h1>공지사항 글쓰기</h1>
 				<style>
-					.view {
-						margin: 10px;
-					}
-					.view h2 {
-						margin-bottom: 10px;
-					}
-					.view > span {
-						display: inline-block;
-						padding-bottom: 10px;
-					}
-					.view span.view-date {
-						color: #0158C2;
-					}
-					.view .view-con {
-						border-top: 1px solid #ccc;
-						border-bottom: 1px solid #ccc;
-						padding: 20px;
-						background: #fff;
-						height: 200px;
-					}
-					.view .file-down a {
-						display: block;
-						margin: 5px;
-						padding: 5px;
-						background: #e1e1e1;
-					}
-					.manage-box {
-						margin: 10px;
-					}
-					.bbs-btn-box > a.del {
-						background: red;
-					}
-					.bbs-btn-box > a.mod {
-						background: red;
-					}
+
 				</style>
 				<div class="view">
 					<span class="view-date">2021-04-16</span>

@@ -1,6 +1,6 @@
 <style>
 
-	/* 초기화 */
+	/* 초기화(이 부분은 프로젝트 시작 시 항상 복붙해서 사용)*/
 	html {overflow-y:scroll}
 	body {margin:0;padding:0;font-size:0.75em; font-family:'Nanum Gothic', 'Malgun Gothic', dotum, sans-serif; background:#f5f5f5;}
 	html, h1, h2, h3, h4, h5, h6, form, fieldset, img {margin:0;padding:0;border:0}
@@ -296,6 +296,7 @@
 		padding: 5px 10px;
 	}
 
+
 	/* 갤러리 리스트 */
 	.gallery-table {
 		overflow: hidden;
@@ -322,7 +323,6 @@
 	.gallery-table .info span {
 		color: #888
 	}
-
 
 
 	.contents {
@@ -358,12 +358,15 @@
 		padding: 0px 10px;
 	}
 
+
 	/* write 페이지 */
 	.write-form {
 		border: 1px solid #ccc;
+		padding: 10px;
+		margin-top: 10px;
 	}
 	.write-form label {
-		display: block;
+		display: inline;
 	}
 	.write-form input[type="text"] {	
 		width: 100%;
@@ -388,7 +391,7 @@
 		border-bottom: 1px solid #ccc;
 	}
 	.write-f-btn {
-		max-width: 800px;
+		max-width: 1200px;
 		margin: 20px auto;
 	}
 
@@ -548,7 +551,8 @@
 		padding: 10px 20px;
 	}
 
-	/* 공지사항 글쓰기 */
+
+	/* 게시글 뷰 */
 	.view {
 		margin: 10px;
 	}

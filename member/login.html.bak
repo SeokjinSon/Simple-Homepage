@@ -70,7 +70,7 @@
 			<div class="top-btn">
 				<ul>
 					<li><a href="./login.html">로그인</a></li>
-					<li><a href="#none">회원가입</a></li>
+					<li><a href="./join.html">회원가입</a></li>
 				</ul>
 			</div>
 		</div>

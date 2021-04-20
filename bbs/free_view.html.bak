@@ -57,7 +57,7 @@
 					</div>
 				</div>
 				<div class="bbs-btn-box manage-box">
-					<a href="./notice_list.html">목록으로</a>
+					<a href="./free_list.html">목록으로</a>
 					<a href="#none" class="del">삭제</a>
 					<a href="#none" class="mod">수정</a>
 				</div>
