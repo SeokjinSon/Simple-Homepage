@@ -143,7 +143,7 @@
 						<div class="date">1990.01.01</div>
 						<div class="set-btn">
 							<a href="./member_form.html">수정</a>
-							<a href="#none">수정</a>
+							<a href="#none">삭제</a>
 						</div>
 					</li>
 				</ul>
