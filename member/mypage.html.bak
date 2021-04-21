@@ -42,16 +42,16 @@
 				<li>
 					<a href="#none">회사소개</a>
 					<ul class="submenu">
-						<li><a href="./about/intro.html">회사소개</a></li>
-						<li><a href="./about/location.html">오시는 길</a></li>
+						<li><a href="../about/intro.html">회사소개</a></li>
+						<li><a href="../about/location.html">오시는 길</a></li>
 					</ul>
 				</li>
 				<li>
-					<a href="./notice_list.html">게시판</a>
+					<a href="../bbs/notice_list.html">게시판</a>
 					<ul class="submenu">
-						<li><a href="./notice_list.html">공지사항</a></li>
-						<li><a href="./free_list.html">자유게시판</a></li>
-						<li><a href="./gallery_list.html">갤러리</a></li>
+						<li><a href="../bbs/notice_list.html">공지사항</a></li>
+						<li><a href="../bbs/free_list.html">자유게시판</a></li>
+						<li><a href="../bbs/gallery_list.html">갤러리</a></li>
 					</ul>
 				</li>
 				<li><a href="../booking/list.html">장소예약</a></li>
@@ -65,10 +65,10 @@
 	<div class="contents">
 		<div class="notice-wrap">
 			<div class="notice-box">
-				<h1>자유게시판 리스트</h1>
+				<h1>MyPage 리스트</h1>
 			</div>
 			<div class="search-box">
-				<input type="text">
+				<input type="text"><pre></pre>
 				<button>검색</button>
 			</div>
 			<div class="notice-table">
@@ -76,28 +76,39 @@
 					<li>
 						<div class="no">번호</div>
 						<div class="subject">제목</div>
-						<div class="name">글쓴이</div>
+						<div class="state">상태</div>
+						<div class="registerDate">예약일</div>
 						<div class="date">등록일</div>
 					</li>
 				</ul>
 				<ul class="table-bd">
 					<li>
+						<div class="no">공지</div>
+						<div class="subject"><a href="#none">불편 시 문의해 주세요.</a></div>
+						<div class="state accept">승인</div>
+						<div class="registerDate">2021.04.15</div>
+						<div class="date">2021.01.01</div>
+					</li>
+					<li>
 						<div class="no">3</div>
-						<div class="subject"><a href="./free_view.html">자유게시판입니다.</a></div>
-						<div class="date">관리자</div>
-						<div class="name">2021.04.20</div>
+						<div class="subject"><a href="../booking/view.html">대구체육공원</a></div>
+						<div class="state wait">승인대기</div>
+						<div class="registerDate">2021.04.15</div>
+						<div class="date">2021.01.01</div>
 					</li>
 					<li>
 						<div class="no">2</div>
-						<div class="subject"><a href="./free_view.html">자유게시판입니다.</a></div>
-						<div class="date">관리자</div>
-						<div class="name">2021.04.20</div>
+						<div class="subject"><a href="../booking/view.html">모닝커피</a></div>
+						<div class="state cancel">취소</div>
+						<div class="registerDate">2021.04.15</div>
+						<div class="date">2021.01.01</div>
 					</li>
 					<li>
 						<div class="no">1</div>
-						<div class="subject"><a href="./free_view.html">자유게시판입니다.</a></div>
-						<div class="date">관리자</div>
-						<div class="name">2021.04.20</div>
+						<div class="subject"><a href="../booking/view.html">크라운산도</a></div>
+						<div class="state deny">반려</div>
+						<div class="registerDate">2021.04.15</div>
+						<div class="date">2021.01.01</div>
 					</li>
 				</ul>
 			</div>
@@ -111,9 +122,6 @@
 					<li><a href="#none">다음</a></li>
 					<li><a href="#none">마지막</a></li>
 				</ul>
-			</div>
-			<div class="bbs-btn-box">
-				<a href="./free_write.html">글쓰기</a>
 			</div>
 		</div>
 	</div>
