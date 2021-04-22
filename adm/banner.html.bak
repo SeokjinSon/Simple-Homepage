@@ -36,7 +36,7 @@
 
 
 	<!-- 메뉴(회사소개, 게시판, 장소예약, 마이페이지) -->
-	<div class="add-menu">
+	<div class="adm-menu">
 		<ul>
 			<li class="on"><a href="./set.html">환경설정</a></li>
 			<li><a href="./board.html">게시판 관리</a></li>
@@ -134,7 +134,7 @@
 				</ul>
 			</div>
 			<div class="bbs-btn-box">
-				<a href="./banner_write.html">배너등록</a>
+				<a href="./banner_form.html">배너등록</a>
 			</div>
 		</div>
 	</div>

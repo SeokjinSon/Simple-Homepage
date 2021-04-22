@@ -813,6 +813,7 @@
 	.adm-member ul.table-hd {
 		text-align: center;
 		border-top: 2px solid #000;
+		background: #bdb5b5;
 	}
 	.adm-member ul.table-bd {
 		text-align: center;
@@ -865,5 +866,28 @@
 	}
 
 
+	/* popup.html */
+	.notice-table .type {
+		width: 10%;
+	}
+
+	.notice-table .addDate {
+		width: 10%;
+	}
+	.notice-table .managePop {
+		width: 10%;
+	}
+	.manage a {
+		display: inline-block;
+		background: #000;
+		color: #fff;
+		padding: 5px 10px;
+	}
+	.managePop a {
+		display: inline-block;
+		background: #000;
+		color: #fff;
+		padding: 5px 10px;
+	}
 
 </style>

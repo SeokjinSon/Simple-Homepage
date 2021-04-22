@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+
+<style>
+	.helloSpan {
+		border: 1px solid red;
+	}
+	.helloSpan span {
+		border: 1px solid red;
+	}
+
+	.helloLabel {
+		border: 1px solid red;
+	}
+	.helloLabel label {
+		border: 1px solid red;
+	}
+	.helloList {
+		border: 1px solid red;
+	}
+
+	.helloList ul li {
+		border: 1px solid red;
+	}
+</style>
+
+ <body>
+ 	<div class="helloSpan">
+
+	 	<span>안녕하세요 span</span>
+ 		<span>안녕하세요</span>
+	 	<span>안녕하세요</span>
+	</div>
+ 	<div class="helloLabel">
+		<input type="checkbox" id="check"><label for="check">안녕하세요 label</label>
+
+		<label for="">안녕하세요</label>
+		<label for="">안녕하세요</label>
+	</div>
+ 	<div class="helloList">
+		<ul>
+			<li>안녕하세요</li>
+			<li>안녕하세요</li>
+			<li>안녕하세요</li>
+		</ul>
+	</div>
+  
+ </body>
+</html>
